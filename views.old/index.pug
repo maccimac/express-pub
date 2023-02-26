@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+  h2 Hello User
+  form(action='/', method='post')
+      input(type='text', name='name')
+      button(type='submit') Add user  
+  ul 
+    each name, i in names
+      li=  'User ' + (i+1) + ': ' + name

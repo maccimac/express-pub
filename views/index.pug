@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
+      h1 Heading
+
+      //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+      p.lead.text-light
+        | Portfolio Description    
+  article.grid-container.portfolio-index
+      .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+        each proj, i in projects  
+          .cell
+            a(href='/project/'+i)
+              img.thumbnail(src=proj.img)
+              h5=proj.title
+      
