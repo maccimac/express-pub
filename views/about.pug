@@ -20,12 +20,8 @@ block content
 
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
-          li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
+          each sk, i in skills
+            li=sk
         h6 Contact Info
 
         //- Add your own contact info
