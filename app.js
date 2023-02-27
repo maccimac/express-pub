@@ -7,14 +7,14 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(express.static(__dirname))
 app.set('view engine', 'pug')
 
-var fs = require('fs'); /* Put it where other modules included */
+var fs = require('fs'); 
 var data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
 
 const {projects, skills} = data;
 
 
 app.get('/', (req,res)=>{
-    res.render('index', {projects: data.projects})
+    res.render('index', {projects})
 })
 
 app.get('/project/:i', (req,res)=>{

@@ -2,26 +2,26 @@
     "projects": [
         {
           "title": "Trickle.app",
-          "description": "Online learning platform",
+          "description": "Online learning platform. Build a personal web of knowledge. In Trickle you accumulate knowledge digitally. With each source, export or drip you build your own knowledge graph and compound your insights over time.",
           "url": "http://trickle.app",
-          "tags": [
-            "Development"
-          ],
-          "contributions": "",
-          "notes": "Lorem ipsum",
-          "img": "/public/img/skyline.jpg"
+          "technologies": ["Vue.JS", "SASS" ],
+          "img": "trickle.png",
+          "screenshots": ["trickle-a.png", "trickle-b.png", "trickle-c.png"]
         },
         {
           "title": "THINC",
-          "description": "Lawyer ",
-          "url": "http://trickle.app",
-          "tags": [
-            "Development"
-          ],
-          "contributions": "",
-          "notes": "Lorem ipsum",
-          "img": "/public/img/glasses.jpg"
-        }
+          "description": "THINC acts as though we are your own in-house Legal Consultancy and Business Advisory team. We handle the legal issues so you can focus on growing and running your business. We determine opportunities and scenarios where legal actions should be pursued.",
+          "url": "http://theinhouseco.com",
+          "img": "thinc.png",
+          "screenshots": ["thinc-a.png", "thinc-b.png"]
+        },
+        {
+            "title": "Care.io",
+            "description": "Care.io provides  access to reliable and affordable home services in Metro Vancouver.",
+            "url": "http://theinhouseco.com",
+            "img": "careio.png",
+            "screenshots": ["careio-a.png", "thinc-b.png"]
+          }
       ],
       "skills": [
         "JavaScript",
