@@ -19,7 +19,8 @@ block content
             each tech, i in project.technologies
               li=tech
 
-        a.button.expanded(href=project.url) Live Demo
+        if project.url
+          a.button.expanded(href=project.url) Live Demo
         if project.github
           a.button.expanded(href='') GitHub Repo
     

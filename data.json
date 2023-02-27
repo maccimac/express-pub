@@ -13,15 +13,36 @@
           "description": "THINC acts as though we are your own in-house Legal Consultancy and Business Advisory team. We handle the legal issues so you can focus on growing and running your business. We determine opportunities and scenarios where legal actions should be pursued.",
           "url": "http://theinhouseco.com",
           "img": "thinc.png",
-          "screenshots": ["thinc-a.png", "thinc-b.png"]
+          "screenshots": ["thinc-a.png", "thinc-b.png"],
+          "technologies":["Wordpress", "PHP", "Figma"]
         },
         {
             "title": "Care.io",
             "description": "Care.io provides  access to reliable and affordable home services in Metro Vancouver.",
             "url": "http://theinhouseco.com",
+            "github": "https://github.com/umarsalih/careio_react_frontend",
             "img": "careio.png",
-            "screenshots": ["careio-a.png", "thinc-b.png"]
+            "screenshots": ["careio-a.png", "careio-b.png"],
+            "technologies":["ReactJS", "SpringBoot", "Figma"]
+          },
+          {
+            "title": "Easy Check Up",
+            "description": "In this application, patients can search for doctors within a location of their choosing. Easy Check Up acts both as a consolidated directory and as well as an appointment booking and management system.",
+            "technologies":["Laravel", "PHP"],
+            "github": "https://github.com/RaiyanKhalil/easy-check-up",
+            "img": "easycheckup.png",
+            "screenshots": ["easycheckup-a.png", "easycheckup-b.png"]
+          },
+          {
+            "title": "Philippine Concrete Industry Association",
+            "description": "PCIA is a network of construction suppliers in the Philippines. Philconcrete.com enables potential members to register. The team admin also has their own dashboard where they can verify and edit member details.",
+            "technologies":["ReactJS", "MongoDB", "Express"],
+            "github": "https://github.com/maccimac/pcia",
+            "url": "https://pcia.webcrafterinc.com/",
+            "img": "pcia.png",
+            "screenshots": ["pcia-a.png", "pcia-c.png", "pcia-b.png"]
           }
+
       ],
       "skills": [
         "JavaScript",
